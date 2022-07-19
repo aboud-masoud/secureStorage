@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:securestorage_example/firstScreen.dart';
+import 'package:securestorage_example/loginScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: FirstScreen(),
+      home: LoginScreen(),
     );
   }
 }
